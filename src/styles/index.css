@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Sofia+Sans:wght@300;500;700&display=swap");
+@import url(./variables.css);
+@import url(./global.css);
+
+
+.comment {
+    color: #584a4a;
+    margin: 20px 0px;
+}
+  
+.comment div h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.comment form {
+    padding: 20px 0px;
+}
+
+.comment form div {
+    color: grey;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.comment form button {
+    margin-top: 20px;
+}
+
+.comment form textarea {
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+}
+
+#currency__block {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    color: black;
+}
+
+#currency__block label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#currency__block select {
+    padding: 10px 15px;
+    background: #6c3eb8;
+    color: white;
+    border-radius: 25px;
+}
+
+.alert {
+    background: white;
+    color: black;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.alert .btn-close {
+    display: none;
+}
+
+.alert p{
+    margin-bottom: 20px;
+}
+
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+    opacity: 1;
+}
+.alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.picture_background {
+    margin-bottom: 30px;
+    height: 100%;
+    border-radius: 10px;
+    width: auto;
+}

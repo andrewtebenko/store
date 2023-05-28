@@ -1,0 +1,40 @@
+.footer {
+  border-top: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo a {
+  height: 100%;
+}
+
+.rights {
+  color: white;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.rights a {
+  color: rgb(148, 154, 185);
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+}
+
+.socials svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.socials svg:hover {
+  fill: var(--violet);
+}
